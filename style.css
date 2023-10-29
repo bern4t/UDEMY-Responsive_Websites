@@ -53,3 +53,12 @@ li {
   font-style: italic;
   font-size: 18px;
 }
+
+.related {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
