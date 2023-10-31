@@ -117,8 +117,8 @@ a:active {
   font-style: italic;
 }
 
-/* Resolving conflicts */
-/* #copyright {
+/* Resolving conflicts
+ #copyright {
   color: red;
 }
 
@@ -131,5 +131,5 @@ a:active {
 }
 
 footer p {
-  color: green;
+  color: green !important;
 } */
