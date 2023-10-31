@@ -1,11 +1,13 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+/* Universal selector selects all elements and that border-top will work*/
+* {
+  /* border-top: 10px solid #1098ad; */
+}
+
+body {
   color: #444;
+  font-family: sans-serif; /* Those text related properties are inherited */
+
+  border-top: 10px solid #1098ad; /* But those are not */
 }
 
 h1,
@@ -133,3 +135,13 @@ a:active {
 footer p {
   color: green !important;
 } */
+
+/* Inheritance */
+
+/* nav a:link {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
