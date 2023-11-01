@@ -1,13 +1,13 @@
 /* Universal selector selects all elements and that border-top will work 
-(no inheritance is involved like in "body" selector
+(no inheritance is involved like in "body" selector */
 * {
-  border-top: 10px solid #1098ad;
-} */
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+}
 
 body {
   color: #444;
   font-family: sans-serif; /* Those text related properties are inherited */
-
   border-top: 10px solid #1098ad; /* But those are not */
 }
 
