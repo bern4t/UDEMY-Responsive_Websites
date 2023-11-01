@@ -1,0 +1,54 @@
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+article {
+  border: 5px solid black;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 26px;
+  background-color: #ededed;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.details {
+  list-style-type: square;
+}
+
+.cart {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+.cart:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
