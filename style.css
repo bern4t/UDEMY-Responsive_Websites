@@ -1,4 +1,5 @@
-/* Universal selector selects all elements and that border-top will work*/
+/* Universal selector selects all elements and that border-top will work 
+(no inheritance is involved like in "body" selector*/
 * {
   /* border-top: 10px solid #1098ad; */
 }
