@@ -12,6 +12,12 @@ body {
   border-top: 10px solid #1098ad; /* But those are not */
 }
 
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;
