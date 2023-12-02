@@ -25,7 +25,6 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  /* height: 80px; */
 }
 
 nav {
@@ -82,7 +81,6 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
-  /* display: inline; */
 }
 
 ul,
@@ -100,17 +98,9 @@ li:last-child {
   margin-bottom: 0;
 }
 
-/* footer p {
-  font-size: 16px;
-} */
-
 #copyright {
   font-size: 16px;
 }
-
-/* article header p {
-  font-style: italic;
-} */
 
 #author {
   font-style: italic;
@@ -163,38 +153,3 @@ a:active {
   background-color: black;
   font-style: italic;
 }
-
-/* DEMO STYLES */
-/* li:nth-child(even) {
-  color: red;
-} */
-
-/* nav a:link {
-  background-color: brown;
-  margin: 20px;
-  padding: 20px;
-  display: inline-block;
-} */
-
-/* Resolving conflicts
- #copyright {
-  color: red;
-}
-
-.copyright {
-  color: blue;
-}
-
-.text {
-  color: yellow;
-}
-
-footer p {
-  color: green !important;
-} */
-
-/* Inheritance */
-
-/* nav a:link {
-  font-size: 18px;
-} */
