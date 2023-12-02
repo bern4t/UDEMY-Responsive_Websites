@@ -11,12 +11,13 @@ body {
   color: #444;
   font-family: sans-serif; /* Those text related properties are inherited */
   border-top: 10px solid #1098ad; /* But those are not */
+  position: relative;
 }
 
 .container {
   width: 800px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
 }
 
 .main-header {
