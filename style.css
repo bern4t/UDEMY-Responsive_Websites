@@ -82,6 +82,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 
 ul,
@@ -168,13 +169,11 @@ a:active {
   color: red;
 } */
 
-/* Misconseption: this won't work! */
-
 /* nav a:link {
   background-color: brown;
   margin: 20px;
   padding: 20px;
-  display: block;
+  display: inline-block;
 } */
 
 /* Resolving conflicts
