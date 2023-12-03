@@ -9,11 +9,25 @@ body {
   line-height: 1.4;
 }
 
+/* SALE POSITION */
+.sale {
+  position: absolute;
+  color: white;
+  background-color: #ec2626;
+  padding: 7px 15px;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+  top: -20px;
+  left: -30px;
+}
+
 /* PRODUCT */
 .product {
   border: 5px solid black;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 .product-heading {
