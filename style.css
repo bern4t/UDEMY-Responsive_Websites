@@ -221,7 +221,7 @@ nav {
 }
 
 /* Floats clearfix method */
-.main-header::after {
+.clearfix::after {
   clear: both;
   content: "";
   display: block;
