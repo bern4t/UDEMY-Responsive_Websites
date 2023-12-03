@@ -219,3 +219,10 @@ h1 {
 nav {
   float: right;
 }
+
+/* Floats clearfix method */
+.main-header::after {
+  clear: both;
+  content: "";
+  display: block;
+}
