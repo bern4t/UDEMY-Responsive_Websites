@@ -15,10 +15,6 @@ body {
   clear: both;
 }
 
-.container {
-  /*   background-color: red; */
-}
-
 .product-img {
   float: left;
   margin-right: 40px;
@@ -76,9 +72,6 @@ body {
   position: absolute;
   top: -17px;
   left: -38px;
-
-  /*   width: 40px;
-  text-align: center; */
 }
 
 .product-description {
