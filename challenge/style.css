@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   width: 825px;
   margin: 50px auto;
   position: relative;
+  box-sizing: content-box;
 }
 
 .product-heading {
@@ -41,6 +43,7 @@ body {
 /* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
+  display: inline-block;
 }
 
 .shipping {
@@ -129,4 +132,32 @@ body {
 .cart:hover {
   background-color: white;
   color: black;
+}
+
+/* Float layout */
+img {
+  float: inline-start;
+  margin-right: 20px;
+}
+
+.informations {
+  float: inline-start;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 265px;
+}
+
+.shipping {
+  float: right;
+  margin-bottom: 20px;
+}
+
+.informations p {
+  clear: right;
+}
+
+.product-details {
+  float: inline-start;
+  margin-top: 20px;
+  width: 265px;
 }
