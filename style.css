@@ -246,3 +246,14 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
