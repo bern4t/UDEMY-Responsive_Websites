@@ -264,3 +264,19 @@ footer {
   gap: 20px;
   margin-bottom: 30px;
 }
+
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
+  align-self: flex-start;
+}
