@@ -269,6 +269,7 @@ footer {
   display: flex;
   gap: 75px;
   margin-bottom: 60px;
+  align-items: flex-start;
 }
 
 article {
@@ -278,5 +279,4 @@ article {
 
 aside {
   flex: 0 0 300px;
-  align-self: flex-start;
 }
