@@ -138,21 +138,21 @@ li:last-child {
 }
 
 .related-author {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
+  font-size: 14px;
   font-style: italic;
+  margin-bottom: 0;
 }
 
-article p:first-child {
-  color: red;
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
 }
+
+/* li:first-child {
+  font-weight: bold;
+} */
 
 .post-img {
   width: 100%;
@@ -256,4 +256,11 @@ footer {
 .author {
   margin-bottom: 0;
   margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
 }
