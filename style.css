@@ -182,7 +182,6 @@ a:active {
 
 nav a:link {
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -242,3 +241,8 @@ footer {
 */
 
 /* Flexbox */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
