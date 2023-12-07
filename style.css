@@ -200,7 +200,7 @@ button {
   right: 50px;
 }
 
-/* FLOATS */
+/* FLOATS
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -220,14 +220,14 @@ nav {
   float: right;
 }
 
-/* Floats clearfix method */
+/* Floats clearfix method 
 .clearfix::after {
   clear: both;
   content: "";
   display: block;
 }
 
-/* Float Layout */
+/* Float Layout 
 article {
   width: 825px;
   float: left;
@@ -238,4 +238,7 @@ aside {
 }
 footer {
   clear: both;
-}
+} 
+*/
+
+/* Flexbox */
