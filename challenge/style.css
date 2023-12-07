@@ -161,11 +161,11 @@ body {
 }
 
 .product-info {
-  flex-shrink: 3;
+  flex: 1;
 }
 
 .product-details {
-  flex-shrink: 1;
+  flex: 1;
 }
 
 .price-and-shipping {
