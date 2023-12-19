@@ -9,17 +9,6 @@ body {
   line-height: 1.4;
 }
 
-/* .clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-} */
-
-.product-img {
-  /* float: left; */
-  /* margin-right: 40px; */
-}
-
 /* PRODUCT */
 .product {
   border: 4px solid black;
