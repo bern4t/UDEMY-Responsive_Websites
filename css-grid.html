@@ -58,7 +58,9 @@
       }
 
       .el--2 {
-        grid-column: 1;
+        /* grid-column: 1/4;  -- spans for 3 columns */
+        /* grid-column: 1 / span 4; -- spans all the way cause of 4 cols*/
+        grid-column: 1 / -1; /*trick to span across all columns! */
         grid-row: 2;
       }
 
