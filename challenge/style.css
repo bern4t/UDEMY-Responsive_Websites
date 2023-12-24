@@ -144,7 +144,7 @@ body {
 }
 
 /* FLEXBOX */
-.main-sections {
+/* .main-sections {
   display: flex;
   gap: 40px;
 }
@@ -155,7 +155,7 @@ body {
 
 .product-details {
   flex: 1;
-}
+} */
 
 .price-and-shipping {
   display: flex;
@@ -167,4 +167,19 @@ body {
 .colors {
   display: flex;
   gap: 10px;
+}
+
+/* CSS GRID */
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+
+.product-title {
+  grid-column: 1/-1;
+}
+
+.add-cart {
+  grid-column: 1/-1;
 }
