@@ -60,6 +60,7 @@ h1 {
   /*Font-size: 44 / 52 / 62 */
   font-size: 44px;
   line-height: 1.1;
+  letter-spacing: -1px;
 }
 
 .header-text {
