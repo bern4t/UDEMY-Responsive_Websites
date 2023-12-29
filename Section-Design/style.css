@@ -9,6 +9,7 @@ FONT SIZE SYSTEM (px)
 /* 
 COLORS SYSTEM
 MAIN: #087f5b
+MAIN-LIGHTER (HOVER): #099268
 GREY: #343a40
 
 */
@@ -57,8 +58,14 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
+  font-size: 18px;
   padding: 16px 32px;
   display: inline-block;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: #099268;
 }
 
 /* ------------------------ */
