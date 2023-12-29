@@ -8,11 +8,11 @@ FONT SIZE SYSTEM (px)
 
 /* 
 COLORS SYSTEM
+
 MAIN: #087f5b
 MAIN-LIGHTER: #099268
 GREY: #343a40
 GREY-LIGHTER: #495057
-
 */
 
 * {
@@ -27,6 +27,7 @@ GREY-LIGHTER: #495057
 body {
   font-family: "Inter", sans-serif;
   color: #343a40;
+  border-bottom: 8px solid #087f5b;
 }
 
 .container {
@@ -128,6 +129,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
