@@ -61,6 +61,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
+  border-radius: 1000px;
 }
 
 .btn:active,
