@@ -11,6 +11,8 @@ COLORS SYSTEM
 
 MAIN: #087f5b
 MAIN-LIGHTER: #099268
+TESTIMONIAL-LIGT: #e6fcf5
+TESTIMONIAL-DARK: #c3fae8
 GREY: #343a40
 GREY-LIGHTER: #495057
 */
@@ -37,7 +39,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 h2 {
@@ -92,7 +94,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .header-text-box {
@@ -100,7 +102,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   /*Font-size: 44 / 52 / 62 */
   font-size: 44px;
   line-height: 1.1;
@@ -124,7 +126,7 @@ img {
   stroke: #087f5b;
   width: 32px;
   height: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .features-title {
@@ -160,6 +162,11 @@ img {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
+  color: #e6fcf5;
+}
+
+.testimonial-author {
+  color: #c3fae8;
 }
 
 /* CHAIRS */
