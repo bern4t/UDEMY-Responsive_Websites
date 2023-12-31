@@ -214,6 +214,7 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 20px;
 }
 
