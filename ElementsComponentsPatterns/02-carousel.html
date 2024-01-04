@@ -83,10 +83,21 @@
         width: 40px;
         border-radius: 50%;
         position: absolute;
+        top: 50%;
 
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+
+      .btn--left {
+        left: 0;
+        transform: translate(-50%, -50%);
+      }
+
+      .btn--right {
+        right: 0;
+        transform: translate(50%, -50%);
       }
 
       .btn-icon {
@@ -109,7 +120,7 @@
         <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
       </blockquote>
 
-      <button class="btn">
+      <button class="btn btn--left">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -125,7 +136,7 @@
           />
         </svg>
       </button>
-      <button class="btn">
+      <button class="btn btn--right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
