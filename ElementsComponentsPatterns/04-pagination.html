@@ -41,8 +41,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 400px;
-        gap: 16px;
+        gap: 12px;
       }
 
       .page-link:link,
@@ -50,10 +49,24 @@
         text-decoration: none;
         color: #343a40;
         font-weight: 500;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
+      .page-link.page-link--active,
       .page-link:hover,
       .page-link:active {
+        background-color: #087f5b;
+        border-radius: 50%;
+        color: #fff;
+      }
+
+      span {
+        cursor: default;
       }
 
       .icon {
@@ -104,7 +117,7 @@
       </button>
       <a href="" class="page-link">1</a>
       <a href="" class="page-link">2</a>
-      <a href="" class="page-link">3</a>
+      <a href="" class="page-link page-link--active">3</a>
       <a href="" class="page-link">4</a>
       <a href="" class="page-link">5</a>
       <a href="" class="page-link">6</a>
